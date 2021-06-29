@@ -1,0 +1,6 @@
+**~
+*.vim
+widl**
+nmess
+tools/testing/sshcli
+tools/testing/sshsrv

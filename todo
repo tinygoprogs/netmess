@@ -1,0 +1,23 @@
+
+mitm/
+
+ * ssh.go
+    - better understand handshake and actually probe to fool real server 
+    - create an API for those TeeReaders
+    - implement more complex setups like port forwarding
+
+discovery/
+
+ * move pcap handling from discovery/ to util/
+
+ * split discovery/ into OS knowledge and capture knownledge
+
+ * ipv6 stuff:
+    - icmpv6 router advertisement + neighbour solicitation
+    - make use of other protocols, e.g. SLAAC
+
+spoof/
+
+    dns.go
+        - 'r !go doc github.com/miekg/dns'
+
